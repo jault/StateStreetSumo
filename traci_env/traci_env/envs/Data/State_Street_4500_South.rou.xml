@@ -1,0 +1,19 @@
+<routes>
+        <vType id="passenger" accel="1.895" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger" color="255,255,0"/>
+
+        <route id="Eastbound.L" edges="gneE2 gneE7" />
+        <route id="Eastbound.T" edges="gneE2 gneE5" />
+        <route id="Eastbound.TR" edges="gneE2 gneE3" />
+
+        <route id="Westbound.L" edges="gneE6 gneE3" />
+        <route id="Westbound.T" edges="gneE6 gneE1" />
+        <route id="Westbound.TR" edges="gneE6 gneE7" />
+
+        <route id="Northbound.L" edges="gneE0 gneE1" />
+        <route id="Northbound.T" edges="gneE0 gneE3" />
+        <route id="Northbound.R" edges="gneE0 gneE5" />
+
+        <route id="Southbound.L" edges="gneE4 gneE5" />
+        <route id="Southbound.T" edges="gneE4 gneE7" />
+        <route id="Southbound.R" edges="gneE4 gneE1" />
+</routes>
